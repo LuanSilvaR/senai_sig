@@ -1,0 +1,51 @@
+package entities;
+
+public class Conta {
+	
+	public int numeroDaConta;
+	public int agencia;
+	public String titular;
+	public double saldo;
+	
+	// Alt + Shift + S
+	// generate Getters and Setter
+	
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return numeroDaConta + " \n" +
+				agencia + " \n" +
+				titular + " \n" +
+				saldo + " \n";
+	}
+
+	public int getNumeroDaConta() {
+		return numeroDaConta;
+	}
+
+	public void setNumeroDaConta(int numeroDaConta) {
+		this.numeroDaConta = numeroDaConta;
+	}
+
+	public int getAgencia() {
+		return agencia;
+	}
+	
+	public int getSaldo() {
+		return saldo;
+	}
+
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+}

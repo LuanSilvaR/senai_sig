@@ -1,0 +1,35 @@
+package principal;
+
+import java.util.Scanner;
+
+import entities.Carro;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Carro carro1 = new Carro();
+		Carro carro2 = new Carro();
+		
+		System.out.println("Informe o modelo");
+		carro1.modelo = sc.nextLine();
+		System.out.println("Informe a cor");
+		carro1.cor = sc.nextLine();
+		carro1.placa = sc.nextLine();
+		carro1.tipoCambio = sc.nextLine();
+
+		carro2.modelo = sc.nextLine();
+		carro2.cor = sc.nextLine();
+		carro2.placa = sc.nextLine();
+		carro2.tipoCambio = sc.nextLine();
+		
+		System.out.println(carro1);
+		System.out.println("*********************");
+		System.out.println(carro2);
+		
+	}
+
+}

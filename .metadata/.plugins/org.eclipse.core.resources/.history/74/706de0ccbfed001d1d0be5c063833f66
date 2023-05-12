@@ -1,0 +1,19 @@
+package principal;
+
+public class Funcoes {
+	public static void main(String  [] args) {
+		mensagem();
+	}
+
+	//
+	static void mensagem() {
+		System.out.println("Minha primeira Função");
+	}
+	
+	static String mensagem2 () {
+		return "Minha segunda função";
+	}
+	
+	
+
+}

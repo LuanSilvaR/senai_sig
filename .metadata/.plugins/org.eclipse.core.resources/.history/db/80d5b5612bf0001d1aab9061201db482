@@ -1,0 +1,18 @@
+package utilitie;
+
+public final class Calculo {
+	
+	public static int delta(int n1,int n2 ) {
+		 return n1+n2;
+	}
+	
+	public static int calculaX2(int n1,int n2 ) {
+		 return n1+n2;
+	}
+	
+	public double delta() {
+        return (b*b)-(4*a*c);
+    }
+}
+
+

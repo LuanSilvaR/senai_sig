@@ -1,0 +1,24 @@
+package entities;
+
+public class Pessoa {
+
+	public String nome;
+	public int idade;
+	public String cpf;
+	public char sexo;
+
+	public void retornaIdade(int ano) {
+		idade = 2023 - ano;
+	}
+	
+	
+	public String toString() {
+		// TODO Auto-generated method stub
+		//return super.toString();
+		return nome + " "
+				+ idade + " "
+				+ sexo + " "
+				+ cpf + " ";
+	}
+
+}

@@ -1,0 +1,30 @@
+package principal;
+
+import entities.Carro;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Carro carro1 = new Carro();
+		Carro carro2 = new Carro();
+		
+	
+		carro1.cor = "Luan";
+		carro1.placa = "asdasd";
+		carro1.tipoCambio = "asdasd";
+
+		carro1.cor = "Luan";
+		carro1.placa = "asdasd";
+		carro1.tipoCambio = "asdasd";
+
+
+		
+		
+		System.out.println(carro1);
+		System.out.println("*********************");
+		System.out.println(carro2);
+		
+	}
+
+}

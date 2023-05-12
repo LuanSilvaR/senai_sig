@@ -1,0 +1,30 @@
+package principa;
+
+import java.util.Scanner;
+
+import entities.Cliente;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		Cliente cliente = new Cliente();
+		
+		System.out.println("Entre com o nome");
+		cliente.nome = sc.nextLine();
+		
+		System.out.println("Entre com o endereço");
+		cliente.endereco = sc.nextLine();
+		
+		System.out.println("Entre com o telefone");
+		cliente.telefone = sc.nextLine();
+		
+		System.out.println("Entre com o nome");
+		cliente.dataNascimento = sc.nextLine();
+		
+		System.out.println("Entre com o nome");
+		cliente.cpf = sc.nextLine();
+	}
+
+}

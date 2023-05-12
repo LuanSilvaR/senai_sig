@@ -1,0 +1,13 @@
+package utilitie;
+
+public final class Calculo {
+	
+	public static int calculaX1(int n1) {
+		return n1;
+	}
+	
+	public static int calculaX1(int n1) {
+		return n1;	
+		
+	}
+}

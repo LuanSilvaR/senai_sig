@@ -1,0 +1,20 @@
+package entities;
+
+public class Conta {
+	
+	public int numeroDaConta;
+	public int agencia;
+	public String titular;
+	public double saldo;
+	
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return numeroDaConta + " \n" +
+				agencia + " \n" +
+				titular + " \n" +
+				saldo + " \n";
+	}
+
+}

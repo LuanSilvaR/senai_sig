@@ -1,0 +1,18 @@
+package principal;
+
+import entities.Carro;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Carro carro1 = new Carro();
+		Carro carro2 = new Carro();
+		
+		System.out.println(carro1);
+		System.out.println("*********************");
+		System.out.println(carro1);
+		
+	}
+
+}

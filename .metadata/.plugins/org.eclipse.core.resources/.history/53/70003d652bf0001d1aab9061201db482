@@ -1,0 +1,12 @@
+package utilitie;
+
+public final class Calculo {
+	
+	public static double delta(int a,int a,int a ) {
+		return (b*b)-(4*a*c);
+	}
+	
+	
+}
+
+

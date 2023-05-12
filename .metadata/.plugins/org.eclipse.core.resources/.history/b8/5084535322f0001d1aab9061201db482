@@ -1,0 +1,9 @@
+package utilitie;
+
+// 
+public final class Calculo {
+
+		public static somaDoisNumeros(int n1,int n2 ) {
+			return n1+n2;
+		}
+}

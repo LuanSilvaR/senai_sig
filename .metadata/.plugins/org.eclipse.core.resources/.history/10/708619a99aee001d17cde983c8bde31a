@@ -1,0 +1,16 @@
+package principal;
+
+import entities.Pessoa;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// Instanciando a classe pessoa
+		// Control + Shif + O
+		Pessoa pessoa = new Pessoa();
+		
+		pessoa.nome = "";
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package entities;
+
+public class Cliente {
+	public String nome;
+	public String endereço;
+	public String nome;
+	public String nome;
+}

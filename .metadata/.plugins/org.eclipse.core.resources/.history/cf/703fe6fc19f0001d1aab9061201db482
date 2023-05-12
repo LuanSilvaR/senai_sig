@@ -1,0 +1,21 @@
+package principa;
+
+import java.util.Scanner;
+
+import entities.Cliente;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		Cliente cliente = new Cliente();
+		
+		System.out.println("Entre com o nome");
+		System.out.println("Entre com o nome");
+		System.out.println("Entre com o nome");
+		System.out.println("Entre com o nome");
+		System.out.println("Entre com o nome");
+	}
+
+}

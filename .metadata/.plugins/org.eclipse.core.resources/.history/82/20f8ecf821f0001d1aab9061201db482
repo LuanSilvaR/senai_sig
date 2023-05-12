@@ -1,0 +1,33 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Entre com um número: ");
+		int n1 = sc.nextInt();
+		
+		System.out.print("Entre com um número: ");
+		int n2 = sc.nextInt();
+		
+		
+		System.out.print("Entre com a largura do lote: ");
+		int largura = sc.nextInt();
+		
+		System.out.print("Entre com a largura do lote: ");
+		int comprimeiro = sc.nextInt();
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

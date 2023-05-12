@@ -1,0 +1,16 @@
+package principa;
+
+import entities.Cliente;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cliente cliente = new Cliente();	
+		
+		cliente.nome = "Luan da Silva Rocha";
+		
+		System.out.print("Nome do cliente é "+ cliente.nome);
+	}
+
+}

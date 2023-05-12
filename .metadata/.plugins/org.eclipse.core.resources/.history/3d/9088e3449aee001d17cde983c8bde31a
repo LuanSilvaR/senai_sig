@@ -1,0 +1,10 @@
+package entities;
+
+public class pessoa {
+	
+	public String nome;
+	public int idade;
+	public char sexo;
+	public String cpf;
+
+}

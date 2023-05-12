@@ -1,0 +1,83 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Exercicio {
+
+	/*
+	 * Faça um programa que receba o salario e a quantidade de vendas total
+	 * que o vendedor fez no mês. Salário base do vendedor é
+	 * R$13000,00. Há também o desconto de 5% do inss e 11% do IRPF sobre o salario bruto.
+	 * 
+	 * Se o vendendo possuir o total de vendas accima de 20 mil no mês, ele recebe um bonificação de 5%
+	 * sobre o valor das vendas;
+	 * 
+	 * se o vendendo possuir o total de vendas entre 15 e 20 mil no mês, recebe uma bonificaçao de 3% no salário;
+	 * 
+	 * se o valor não passar de 10mil , imprimia uma frase motivacional;
+	 * 
+	 * Todos os funcionarios devem ter o contracheque detalhado, funcionarios que receberam um 
+	 * bonificação não devem ter descontos sobre a bonificação, indicando o mês de referencia.
+	 * 
+	*/
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe o salário: ");
+		double salarioBase = sc.nextDouble();
+		
+		System.out.println("Informe a quantidade de vendas: ");
+		double totalVendas = sc.nextDouble();
+
+		double bonificacao;
+		int percentual;
+		String mensagem = "";
+		double inss = (salarioBase * 0.05);
+		double irpf = (salarioBase * 0.11);
+		
+		if(totalVendas  > 20000) {
+			percentual = 5;
+			System.out.println((bonificacao = (1300*0.05)));
+		}else if(totalVendas  >= 15000 && totalVendas  < 20000) {
+			percentual = 3;
+			System.out.println((bonificacao = (1300*0.03)));
+		}else if(totalVendas  >= 10000 && totalVendas  < 15000) {
+			percentual = 1;
+			System.out.println((bonificacao = (1300*0.01))); 
+		}else {
+			percentual = 0;
+
+			mensagem = "Se não melhorar sua produção está na rua!!!!";
+			System.out.println(mensagem);
+			bonificacao = 0;
+		}
+		
+		
+		
+		System.out.println("Salário base: R$" + salarioBase);
+		System.out.println("Desconto de INSS: " + inss);
+		System.out.println("Desconto de IRPF: " + irpf);
+		System.out.println("Bonificação: R$" + bonificacao);
+		System.out.println("Salário Final: " + ((salarioBase - (inss + irpf))+ bonificacao));
+		System.out.println(mensagem);
+		
+		sc.close();
+	}
+
+	public double calculaBonificacao(double salarioBase, int percentual ) {
+		calculaBonificacao = (100* 100);
+		return 
+	}
+	
+	static double calculaBonificacao(String msg) {
+		return calculaBonificacao;
+	}
+	
+
+}
+
+
+

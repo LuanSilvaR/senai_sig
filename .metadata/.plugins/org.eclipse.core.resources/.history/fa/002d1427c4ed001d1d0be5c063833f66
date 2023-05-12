@@ -1,0 +1,14 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	static double moedaSaida(double moedaEntrada) {
+			return moedaSaida = (moedaEntrada * 4.99);
+		}
+
+}

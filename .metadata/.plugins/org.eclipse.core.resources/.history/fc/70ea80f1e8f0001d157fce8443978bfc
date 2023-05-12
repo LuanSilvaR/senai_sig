@@ -1,0 +1,33 @@
+package principal;
+
+import java.util.Scanner;
+
+import entities.Conta;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		Conta conta = new Conta();
+		
+		System.out.println("Entre em com o número da conta: ");
+ 		conta.setNumeroDaConta(sc.nextInt()); 
+		
+		System.out.println("Entre agencia: ");
+ 		conta.setAgencia(sc.nextInt());
+		sc.nextLine();
+		
+		System.out.println("Entre com o titular da conta:");
+		conta.setTitular(sc.nextLine());
+		conta.titular = ;
+		
+		System.out.println("Entre com o saldo: ");
+		conta.saldo = sc.nextDouble();
+		
+		System.out.println(conta);
+		
+		sc.close();
+	}
+
+}

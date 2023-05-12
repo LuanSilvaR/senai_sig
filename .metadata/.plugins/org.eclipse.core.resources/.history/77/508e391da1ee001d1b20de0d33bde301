@@ -1,0 +1,17 @@
+package entities;
+
+public class Carro {
+	public String cor;
+	public String placa;
+	public int tipoCambio;
+	
+	
+	public String toString() {
+		// TODO Auto-generated method stub
+		//return super.toString();
+		return cor + " "
+				+ placa + " "
+				+ tipoCambio + " ";
+
+	}
+}

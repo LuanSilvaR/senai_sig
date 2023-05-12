@@ -1,0 +1,11 @@
+package entities;
+
+public class Conta {
+	
+	public int numeroDaConta;
+	public int agencia;
+	public String titular;
+	public double saldo;
+	
+
+}
